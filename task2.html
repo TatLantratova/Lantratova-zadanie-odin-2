@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu">
+        <p>
+           <a href="#top"><button> <u>О проекте</u></button></a>
+           <a href="#top1"><button> <u>Направления</u></button></a>
+           <a href="#pfoto"><button> <u>Галерея</u></button></a>
+           <a href="#plan"><button> <U></U>Планирование</U></button></a>
+           <a href="#nomer"><button> <u></u>Контакты</u></button></a>  
+        </p>
+
+    </div>
+
+    <div class="O-nas" id="top">
+    <h2>О нас</h2>
+    <p>Мы хотим, чтобы в любой точке мира вы могли встретиться с близкими по духу людьми, которые откроют для вас все самое увлекательное, ценное и неожиданное, что есть в новом городе.
+С 2013 года мы находим лучших гидов и проводим отличные индивидуальные и групповые экскурсии в 928 городах мира. О том, насколько хорошо у нас это получается, лучше всего расскажут отзывы наших путешественников: на сайте их более 1 000 000.</p>
+    </div>
+
+    <div class="napravlenia" id="top1">
+        <h2>Популярные направления:</h2>
+        <h3>Топ-5 популярных направления по России:</h3>
+        <ol>
+            <li>Озеро Байкал</li>
+            <li>Камчаика</li>
+            <li>Золотое кольцо России</li>
+            <li>Алтай</li>
+            <li>Калининградская область</li>
+        </ol>
+
+        <h3>Сравнение направлений:</h3>
+
+        <table>
+            <tr>
+                 <td id=name>Направление</td>
+                 <td id=name>Лучшее время для посещения</td>
+                 <td id=name>Средняя стоимость поездки</td>
+            </tr>
+            <tr>
+                 <td>Озеро Байнал</td>
+                 <td>Июль-Август</td>
+                 <td>30 000руб.</td>
+            </tr>
+            <tr>
+                 <td>Камчатка</td>
+                 <td>Июль-Сентябрь</td>
+                 <td>70 000руб.</td>
+            </tr>
+            <tr>
+                 <td>Золотое кольцо</td>
+                 <td>Май-Сентябрь</td>
+                 <td>20 000руб.</td>
+            </tr>
+            <tr>
+                 <td>Алтай</td>
+                 <td>Июнь-Август</td>
+                 <td>25 000руб.</td>
+            </tr>
+
+            <td></td>
+            <td></td>
+            <td></td>
+        </table>
+    </div>
+
+    <div class="pfoto" id="pfoto">
+        <h2>Галерея</h2>
+    <div class="Baykal" id="bar">
+        <h3>Байкал</h3>
+        <img src="https://i.pinimg.com/originals/7d/73/07/7d7307961a238e1e8e7fd63d9107593b.jpg" width="200px">
+        <p>Озеро Байкал-самое глубокое озеро в мире</p>
+    </div>
+    <divclass="Baykal" id="bar1">
+        <h3>Камчатка</h3>
+        <img src="https://cdn.culture.ru/images/654e7817-ec04-59be-ad1f-68cad9d42a87" width="200px">
+        <p>Камчатка край вулканов и гезеров</p>
+    </div>
+
+    <div class="Baykal" id="bar2">
+        <h3>Алтай</h3>
+        <img src="https://i.pinimg.com/736x/b8/dd/27/b8dd27b87faba222bb6939edc2a7d67b.jpg" width="200px">
+        <p>Алтай-горный край с уникальной природой</p>
+    </div>
+         <p>Больше фотографий:</p>
+          <p>
+            <ul>
+                <li><a href="#bar"><h3>Байкал</h3></a></li>
+                <li><a href="#bar1"><h3>Камчатка</h3></a></li>
+                <li><a href="#bar2"><h3>Алтай</h3></a></li>
+            </ul> 
+        </p>
+
+    </div>
+
+    <div class="dannye-klitnta" id="plan">
+        <h2>Планирование путешествия</h2>
+        <form action="#" method="POST">
+            <p>Ваше имя:</p>
+            <input type="text" name="name" placeholder="Введите ваше имя"><br>
+
+            <p>Ваша почта</p>
+            <input type="text" email="E-mail" placeholder="Введите вашу почту"><br>
+
+            <p>Выберите направление</p>
+            <input name="city" placeholder="---Выберите направление---"><br>
+               
+            <p>Тип путешествия:</p>
+            <input type="radio" name="vid" value="ind">Индивидуальное <br>
+            <input type="radio" name="vid" value="group">Групповое <br>
+
+            <input type="radio" name="usluga" value="gid">Гид<br>
+            <input type="radio" name="usluga" value="transfer">Трансфер<br>
+            <input type="radio" name="usluga" value="strahovka">Страховка <br>
+
+            <p>Комментарии и пожелания:</p>            
+            <textarea type="message" rows="4"  cols="30" placeholder="Введите ваше сообщение"></textarea><br>
+
+            <button>Отправить заявку</button>
+            <button>Отчистить форму</button>
+           
+        
+        </form>
+
+
+    </div>
+
+    <div class="Front" id="nomer">
+        <h2>Контакты</h2>
+        <P>Cвяжитесь с нами для получения дополнитольной информации</P>
+        <ul>
+            <li>Телефон: +7 945 252 59 35</li>
+            <li>E-mail: idtyl@mail.com</li>
+            <li>Адрес: Москва, пер. Воблино, д.125, к. 15, стр.45</li>
+        </ul>
+    </div>
+
+    <div class="pol">
+        <h4>@Путешествия по России.Все права защищены</h4>
+    </div>
+
+</body>
+</html>

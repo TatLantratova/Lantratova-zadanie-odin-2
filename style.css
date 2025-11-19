@@ -1,0 +1,97 @@
+body
+{
+    background-color: rgb(235, 236, 249);
+
+}
+
+h2
+{
+    color: rgb(69, 69, 236);
+}
+
+h3
+{
+    color: rgb(69, 69, 236);
+}
+
+
+
+div
+{
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    border: 5px;
+    border-color: aqua;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.menu
+{
+    background-color: rgb(69, 69, 236);
+    padding: 5px;
+    height: 50px;
+}
+
+button
+{
+    background-color: rgb(69, 69, 236);
+    border-radius: 5px;
+    border-color: rgb(69, 69, 236);
+    color: white;
+}
+
+.O-nas
+{
+     padding: 5px;
+    height: 150px;
+}
+
+.napravlenia
+{
+    padding: 15px;
+    height: 500px;
+
+}
+
+table
+{
+  table-layout: fixed;
+  width: 100%;
+  border: 3px solid rgb(160, 160, 255);
+}
+
+#name 
+{ 
+    background: rgb(169, 216, 255);
+}
+
+.input
+{
+    margin: 5px;
+}
+
+.pfoto
+{
+    padding: 5px;
+}
+
+.dannye-klitnta
+{
+    padding: 5px;
+}
+
+.Front
+{
+    padding: 5px;
+}
+.pol
+{
+    text-align: center;
+    padding: 30px;
+    color: #e6dfdf;
+    background-color: rgb(69, 69, 236); 
+    height: 50;
+    padding: 5px;
+    height: 40px;
+}
